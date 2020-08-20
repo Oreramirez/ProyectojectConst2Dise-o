@@ -61,7 +61,7 @@
         <menu>
             <item
                 android:id="@+id/Pro_seg"
-                android:title="Protocolo"
+                android:title="Medidas Preventivas"
                 android:icon="@drawable/ic_menu_user"/>
             <item
                 android:id="@+id/nav_salir"

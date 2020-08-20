@@ -22,7 +22,7 @@
 
     <string-array name="tipoUsuario">
         <item>Seleccione Tipo Usuario</item>
-        <item>Mercader</item>
+        <item>Administrador</item>
         <item>Cliente</item>
     </string-array>
 

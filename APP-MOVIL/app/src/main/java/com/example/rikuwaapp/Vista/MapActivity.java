@@ -121,8 +121,8 @@ public class MapActivity extends AppCompatActivity implements NavigationView.OnN
                                         objunidad = obj.getValue(Unidad.class);
                                         Marker marker = null;
                                         LatLng position = new LatLng(objunidad.getLatitud(), objunidad.getLongitud());
-                                        marker = googleMap.addMarker(new MarkerOptions().position(position).title(objunidad.getNombreUnidad()));
-                                        //marker = googleMap.addMarker(new MarkerOptions().position(position).icon(BitmapDescriptorFactory.fromResource(R.mipmap.autobus)).title(objunidad.getNombreUnidad()));
+                                        //marker = googleMap.addMarker(new MarkerOptions().position(position).title(objunidad.getNombreUnidad()));
+                                        marker = googleMap.addMarker(new MarkerOptions().position(position).icon(BitmapDescriptorFactory.fromResource(R.mipmap.autobus)).title(objunidad.getNombreUnidad()));
                                     }
 
                                     map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {

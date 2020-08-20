@@ -4,9 +4,18 @@ public class Usuario {
     String email;
     String password;
     String tipoUsuario;
-    String nombre ="";
-    String apellido ="";
-    String direccion ="";
+    String nombre;
+    String apellido;
+    String direccion;
+    String IdUsuario;
+
+    public String getIdUsuario() {
+        return IdUsuario;
+    }
+
+    public void setIdUsuario(String idUsuario) {
+        IdUsuario = idUsuario;
+    }
 
     public String getNombre() {
         return nombre;

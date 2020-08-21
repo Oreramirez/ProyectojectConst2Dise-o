@@ -17,7 +17,6 @@ public class PdfViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf_view);
-        //Toolbar toolbar = findViewById(R.id.toolbar);
 
         testpdf = findViewById(R.id.pdfviewer);
         testpdf.fromAsset("protocolo.pdf")

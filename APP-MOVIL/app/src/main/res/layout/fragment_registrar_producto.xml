@@ -118,7 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="REGISTRAR PRODUCTO"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_black"
                 android:textColor="#fff"/>
 
         </LinearLayout>

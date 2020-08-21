@@ -69,15 +69,15 @@
 
         <Spinner
             android:id="@+id/spinner_tipousuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/input"
             android:entries="@array/tipoUsuario"
-            android:textColor="#ffffff"
             android:padding="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textColor="@color/backgroundgray" />
 
         <Button
             android:id="@+id/btn_ir_crearCuenta"

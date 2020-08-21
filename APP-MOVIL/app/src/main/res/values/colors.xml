@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#83b31e</color>
-    <color name="colorPrimaryDark">#3e5566</color>
+    <color name="colorPrimaryDark">#2C2E30</color>
     <color name="colorAccent">#D81B60</color>
 
     <color name="color1">#d8d7d3</color>
@@ -21,6 +21,8 @@
     <color name="color15">#D9EBFB</color>
 
 
+    <color name="dimgray">#696969</color>
+    <color name="backgroundgray">#f4f3f3</color>
 
     <color name="estadoUnidad1">#009E0F</color>
     <color name="estadoUnidad2">#FFFF00</color>

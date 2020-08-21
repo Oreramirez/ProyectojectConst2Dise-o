@@ -16,7 +16,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="110dp"
             android:background="#83b31e"
             android:padding="20dp">
 
@@ -27,105 +27,12 @@
                 android:fontFamily="sans-serif-medium"
                 android:includeFontPadding="false"
                 android:text="Registro Unidad"
+                android:textStyle="bold"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="24sp"
+                android:textColor="#ffff"/>
 
         </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-100dp"
-            android:padding="20dp">
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="0dp"
-                android:layout_height="125dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:background="#83b31e"
-                app:cardBackgroundColor="#83b31e"
-                app:cardElevation="10dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="5dp">
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_menu_car" />
-
-                    <TextView
-                        android:id="@+id/payment_label"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:includeFontPadding="false"
-                        android:text="$123"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/payment_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/payment_label"
-                        android:layout_centerHorizontal="true"
-                        android:includeFontPadding="false"
-                        android:text="Balance"
-                        android:textSize="14sp" />
-
-                </RelativeLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="0dp"
-                android:layout_height="125dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:background="#83b31e"
-                app:cardBackgroundColor="#83b31e"
-                app:cardElevation="10dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="5dp">
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_centerHorizontal="true"
-                        android:src="@drawable/ic_menu_car" />
-
-                    <TextView
-                        android:id="@+id/booking_label"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:includeFontPadding="false"
-                        android:text="12"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/booking_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/booking_label"
-                        android:layout_centerHorizontal="true"
-                        android:includeFontPadding="false"
-                        android:text="Bookin"
-                        android:textSize="20sp" />
-
-                </RelativeLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -137,13 +44,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:hint="Nombre de Placa">
+                android:hint="Numero de Placa">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtnombrePlaca"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_menu_user"
+                    android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
                     android:drawablePadding="10dp">
 
                 </com.google.android.material.textfield.TextInputEditText>
@@ -154,7 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:hint="Nombre de la Unidad">
+                android:hint="Nombre de la Unidad"
+                android:textSize="20sp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtNombreUnidad"
@@ -171,8 +79,10 @@
                 android:id="@+id/btnAbrirImagenes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#83b31e"
-                android:text="AGREGAR IMAGEN" />
+                android:background="@drawable/button_rounded"
+                android:text="AGREGAR IMAGEN"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -201,8 +111,10 @@
                 android:id="@+id/btnEditar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#83b31e"
-                android:text="REGISTRAR" />-->
+                android:background="@drawable/button_rounded_black"
+                android:text="REGISTRAR"
+                android:textColor="#fff"
+                android:textSize="20sp"/>-->
 
         </LinearLayout>
 

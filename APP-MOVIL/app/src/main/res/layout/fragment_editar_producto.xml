@@ -43,7 +43,8 @@
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Foto Referencial de Producto" />
+                android:text="Foto Referencial de Producto"
+                android:textSize="20sp"/>
 
             <Button
                 android:id="@+id/btnAbrirImagenes"
@@ -65,7 +66,7 @@
                     android:id="@+id/txtPrecioProducto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_menu_car"
+                    android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:inputType="number">
@@ -79,7 +80,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Categoria de Producto" />
+                android:text="Categoria de Producto"
+                android:textSize="20sp"/>
 
             <Spinner
                 android:id="@+id/spinner"
@@ -95,8 +97,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="EDITAR PRODUCTO"
-                android:background="@drawable/button_rounded"
-                android:textColor="#fff"/>
+                android:background="@drawable/button_rounded_black"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 

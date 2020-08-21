@@ -89,7 +89,7 @@ public class HorarioDetalleActivity extends AppCompatActivity {
                 for (DataSnapshot obj : snapshot.getChildren()) {
                     objhorario = obj.getValue(Horario.class);
                 }
-                txtHorarioConcat.setText(objhorario.getHoraInicio()+":00" + " - " + objhorario.getHoraFin()+":00"+ "HORAS");
+                txtHorarioConcat.setText(objhorario.getHoraInicio()+":00" + " - " + objhorario.getHoraFin()+":00"+ " hrs.");
                 CalcularCheckedHorario(objhorario.getDiaSemana());
             }
 

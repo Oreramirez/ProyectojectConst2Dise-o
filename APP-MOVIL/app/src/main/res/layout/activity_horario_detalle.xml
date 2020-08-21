@@ -15,7 +15,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="110dp"
             android:background="#83b31e"
             android:radius="50dp"
             android:padding="20dp">
@@ -28,9 +28,10 @@
                 android:layout_marginLeft="10dp"
                 android:includeFontPadding="false"
                 android:text="Dias de Atencion"
+                android:textStyle="bold"
                 android:textColor="#fff"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="24sp" />
 
         </RelativeLayout>
 
@@ -47,44 +48,60 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Días de atención de la Unidad" />
+                android:text="DIAS RECORRIDO"
+                android:textAlignment="center"
+                android:textColor="@color/colornegrocar"
+                android:textSize="20sp"/>
 
             <CheckBox
                 android:id="@+id/chkLunes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#fece2f"
-                android:text="Lunes"/>
+                android:text="Lunes"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkMartes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Martes"/>
+                android:text="Martes"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkMiercoles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Miercoles"/>
+                android:text="Miercoles"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkJueves"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jueves"/>
+                android:text="Jueves"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkViernes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Viernes"/>
+                android:text="Viernes"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkSabado"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sabado"/>
+                android:text="Sabado"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
             <CheckBox
                 android:id="@+id/chkDomingo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Domingo"/>
+                android:text="Domingo"
+                android:textStyle="bold"
+                android:elevation="20dp"/>
 
         </LinearLayout>
 
@@ -100,9 +117,8 @@
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="#fece2f"
-                app:cardBackgroundColor="#fece2f"
-                app:cardElevation="10dp">
+                android:background="@drawable/round_background"
+                app:cardElevation="20dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -133,7 +149,7 @@
                         android:includeFontPadding="false"
                         android:text="0"
                         android:textAlignment="center"
-                        android:textColor="@color/estadoUnidad1"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="30dp" />
 
                 </RelativeLayout>

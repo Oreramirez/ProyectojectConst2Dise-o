@@ -48,7 +48,7 @@
                     android:id="@+id/txtHoraInicio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_menu_car"
+                    android:drawableLeft="@drawable/ic_baseline_access_time_24"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:inputType="text">
@@ -69,7 +69,7 @@
                     android:id="@+id/txtHoraFin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                    android:drawableLeft="@drawable/ic_baseline_access_time_24"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:inputType="number" >
@@ -90,37 +90,44 @@
                 android:id="@+id/chkLunes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lunes"/>
+                android:text="Lunes"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkMartes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Martes"/>
+                android:text="Martes"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkMiercoles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Miercoles"/>
+                android:text="Miercoles"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkJueves"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jueves"/>
+                android:text="Jueves"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkViernes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Viernes"/>
+                android:text="Viernes"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkSabado"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sabado"/>
+                android:text="Sabado"
+                android:textStyle="bold"/>
             <CheckBox
                 android:id="@+id/chkDomingo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Domingo"/>
+                android:text="Domingo"
+                android:textStyle="bold"/>
 
 
             <Button
@@ -128,10 +135,10 @@
                 android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_black"
                 android:textColor="#fff"
                 android:text="EDITAR HORARIO"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 android:elevation="5dp"/>
 
         </LinearLayout>

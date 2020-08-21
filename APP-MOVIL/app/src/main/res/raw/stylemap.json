@@ -3,7 +3,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#1d2c4d"
+        "color": "#ebe3cd"
       }
     ]
   },
@@ -11,7 +11,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#8ec3b9"
+        "color": "#523735"
       }
     ]
   },
@@ -19,7 +19,7 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#1a3646"
+        "color": "#f5f1e6"
       }
     ]
   },
@@ -28,7 +28,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#4b6878"
+        "color": "#c9b2a6"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#64779e"
+        "color": "#dcd2be"
       }
     ]
   },
@@ -46,7 +46,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#4b6878"
+        "color": "#ae9e90"
       }
     ]
   },
@@ -55,7 +55,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#334e87"
+        "color": "#334e87"----
       }
     ]
   },
@@ -64,7 +64,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#023e58"
+        "color": "#dfd2ae"
       }
     ]
   },
@@ -73,7 +73,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#283d6a"
+        "color": "#dfd2ae"
       }
     ]
   },
@@ -82,7 +82,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#6f9ba5"
+        "color": "#93817c"
       }
     ]
   },
@@ -100,7 +100,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#023e58"
+        "color": "#a5b076"
       }
     ]
   },
@@ -109,7 +109,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#3C7680"
+        "color": "#447530"
       }
     ]
   },
@@ -118,7 +118,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#304a7d"
+        "color": "#f5f1e6"
       }
     ]
   },
@@ -145,7 +145,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#2c6675"
+        "color": "#f8c967"
       }
     ]
   },
@@ -154,7 +154,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#255763"
+        "color": "#e9bc62"
       }
     ]
   },
@@ -199,7 +199,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#283d6a"
+        "color": "#ebe3cd"
       }
     ]
   },
@@ -208,7 +208,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#3a4762"
+        "color": "#dfd2ae"
       }
     ]
   },
@@ -217,7 +217,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#0e1626"
+        "color": "#b9d3c2"
       }
     ]
   },
@@ -226,7 +226,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#4e6d70"
+        "color": "#92998d"
       }
     ]
   }

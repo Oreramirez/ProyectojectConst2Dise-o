@@ -60,8 +60,8 @@
     <item android:title="Acciones adicionales">
         <menu>
             <item
-                android:id="@+id/Pro_seg"
-                android:title="Medidas Preventivas"
+                android:id="@+id/Med_prev"
+                android:title="Manual de Prevencion"
                 android:icon="@drawable/ic_menu_user"/>
             <item
                 android:id="@+id/nav_salir"

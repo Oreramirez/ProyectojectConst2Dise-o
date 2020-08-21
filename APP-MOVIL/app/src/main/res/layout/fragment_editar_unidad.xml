@@ -43,7 +43,8 @@
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre de Placa" />
+                android:text="Numero de Placa"
+                android:textSize="20sp"/>
 
             <EditText
                 android:id="@+id/txtnombrePlaca"
@@ -57,11 +58,11 @@
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre de la unidad" />
+                android:text="Nombre de la unidad"
+                android:textSize="20sp"/>
 
             <EditText
                 android:id="@+id/txtNombreUnidad"
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -71,7 +72,8 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Foto Referencial de la Unidad" />
+                android:text="Foto Referencial de la Unidad"
+                android:textSize="20sp"/>
 
             <Button
                 android:id="@+id/btnAbrirImagenes"
@@ -87,7 +89,8 @@
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Selecciona la zona de trabajo de la unidad" />
+                android:text="Selecciona la zona de la unidad"
+                android:textSize="20sp"/>
 
             <Spinner
                 android:id="@+id/spinner"
@@ -101,7 +104,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Selecciona estado de unidad" />
+                android:text="Selecciona estado de unidad"
+                android:textSize="20sp"/>
 
             <Spinner
                 android:id="@+id/spinnerEstadoUnidad"
@@ -113,12 +117,13 @@
 
             <Button
                 android:id="@+id/btnEditar"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="EDITAR"
-                android:background="@drawable/button_rounded"
-                android:textColor="#fff"/>
+                android:background="@drawable/button_rounded_black"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 

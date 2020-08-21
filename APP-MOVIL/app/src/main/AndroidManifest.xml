@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vista.ProductosDetalleActivity"></activity>
+        <activity android:name=".Vista.ProtocoloActivity"></activity>
+        <activity android:name=".Vista.ManualActivity" />
+        <activity android:name=".Vista.ProductosDetalleActivity" />
         <activity android:name=".Vista.ProductosActivity" />
         <activity android:name=".Vista.HorarioDetalleActivity" />
         <activity android:name=".Vista.HorariosActivity" />

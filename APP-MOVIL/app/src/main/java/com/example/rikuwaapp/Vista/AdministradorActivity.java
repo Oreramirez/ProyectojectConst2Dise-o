@@ -91,13 +91,9 @@ public class AdministradorActivity extends AppCompatActivity implements Navigati
                 break;
 
             case R.id.Pro_seg:
-                Intent paramView2;
-                paramView = new Intent("android.intent.action.SEND");
-                paramView.setType("text/plain");
-                paramView.putExtra("android.intent.extra.TEXT", "Protocolo Bioseguridad Abastos" +
-                        " \n" + "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20887%20de%202020.pdf");
-                startActivity(Intent.createChooser(paramView, "Comparte Nuestro aplicativo RIKUWA, tiempos de COVID-19"));
-                break;
+                i = new Intent(AdministradorActivity.this, ProtocoloActivity.class);
+                startActivity(i);
+                return false;
 
             case R.id.nav_salir:
                 Helper.LimpiarSharedPreferences(this);

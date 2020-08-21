@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Vista.PdfViewActivity">
+    tools:context=".Vista.Fragment.PdfViewCliente">
 
     <!--<include
         android:id="@+id/toolbar"
@@ -13,11 +13,9 @@
     <com.github.barteksc.pdfviewer.PDFView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/pdfviewer"
+        android:id="@+id/pdfviewer2"
         android:background="@color/cardview_dark_background">
 
-
     </com.github.barteksc.pdfviewer.PDFView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

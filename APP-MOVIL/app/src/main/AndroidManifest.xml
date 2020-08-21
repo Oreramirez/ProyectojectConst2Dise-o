@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vista.PdfViewActivity"></activity>
+        <activity android:name=".Vista.PdfEstadoadmin"></activity>
+        <activity android:name=".Vista.Fragment.PdfViewCliente" />
+        <activity android:name=".Vista.PdfViewActivity" />
         <activity android:name=".Vista.ProtocoloActivity" />
         <activity android:name=".Vista.ManualActivity" />
         <activity android:name=".Vista.ProductosDetalleActivity" />

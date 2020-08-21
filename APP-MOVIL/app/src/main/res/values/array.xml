@@ -18,6 +18,7 @@
         <item>Verduras</item>
         <item>Abarrotes</item>
         <item>Carnes</item>
+        <item>Otros</item>
     </string-array>
 
     <string-array name="tipoUsuario">
